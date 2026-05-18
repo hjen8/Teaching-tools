@@ -12,8 +12,15 @@
 - 📘 **Obsidian**：`E:\Brain\Teaching-tools\工作筆記.md`
 - 🔥 **Firebase**：`my-teaching-tools-4dd75`（asia-east1）
 
+## ⚠️ 雙倉同步規則
+
+工具原始碼放在 `E:\OpenCode\tools\`（GitHub 版），對應的說明筆記在 Obsidian `E:\Brain\Teaching-tools\`。兩份同步修改，只推 GitHub。
+
 ## 工具清單
-（之後加新工具時會自動更新）
+
+| 工具名稱 | 位置 | 狀態 | 說明 |
+|---------|------|------|------|
+| （尚無） | | | |
 
 ## 工作注意事項
 - 學生資料一律去識別化（只用座號 + 班級代號）
