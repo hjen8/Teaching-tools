@@ -1,0 +1,15 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // 白名單：在這裡開放需要的集合
+    match /wordcloud_words/{document} {
+      allow read, write: if true;
+    }
+
+    // 其他集合預設禁止
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
