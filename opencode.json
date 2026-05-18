@@ -28,15 +28,5 @@
       "args": ["mcp"],
       "enabled": true
     }
-  },
-  "agents": {
-    "shutdown": {
-      "description": "收工同步：commit + push + 更新 Obsidian 工作筆記",
-      "prompt": "你現在是收工同步助手。請依序執行：\n1. 從對話歷史摘要今天完成的檔案與決策\n2. 讀取工作筆記 E:\\Brain\\Teaching-tools\\工作筆記.md\n3. 更新工作筆記：\n   - ⏯️「上次做到哪」段：更新最後動作、完成的檔案、對話脈絡\n   - 🗓️「最近更動紀錄」表格最後加一行：日期 + 摘要 + ✅✅\n   - 🕳️「踩坑筆記」若有新坑加進去\n4. git add + git commit（commit message 寫清楚做了什麼 + 為什麼）\n5. git push\n6. 回報三欄表格：GitHub + Obsidian 同步狀態\n\n注意：\n- 沒有實質進度時不要跑同步\n- commit message 要有資訊，不要只寫「更新」"
-    },
-    "startup": {
-      "description": "開工接續：讀工作筆記、回報進度、建議下一步",
-      "prompt": "你現在是開工接續助手。請依序執行：\n1. 讀取工作筆記 E:\\Brain\\Teaching-tools\\工作筆記.md\n2. 摘要「上次做到哪」（精簡 1-2 句，不要全文倒出）\n3. 執行 git status --short 檢查本地狀態\n4. 執行 git fetch origin 檢查遠端（若 30 分鐘內 fetch 過可跳過）\n5. 檢查落後：git rev-list HEAD..origin/HEAD --count\n6. 回報結構化摘要：\n   📂 專案：Teaching-tools\n   📘 上次進度：（摘要）\n   🔧 本地：（clean / N 個未 commit）\n   🌐 遠端：（最新 / 落後 N commits）\n   ➡️ 建議下一步：（列出可選方向）\n\n注意：\n- 不主動 git pull\n- 不主動修改工作筆記\n- 用摘要方式呈現，不要全文倒出"
-    }
   }
 }
