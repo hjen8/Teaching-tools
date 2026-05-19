@@ -3,7 +3,11 @@
 ## 工作模式
 - 進度與最近更動都在 Obsidian：`E:\Brain\Teaching-tools\工作筆記.md`
 - **加新工具**：在 `E:\OpenCode\tools\<工具名>\` 下建立
-- **收工**：自動 commit + push + 更新工作筆記
+- **收工 SOP**：
+  1. 歸納本次工作內容，建議一個資料夾名稱（例：「PPT教材 自動比對 更新」）
+  2. 等用戶同意後，在 `E:\OpenCode\archive\` 下建立該資料夾
+  3. 將本次工作產出的檔案（腳本、報表、設定檔等）移入該資料夾
+  4. 自動 commit + push + 更新工作筆記
 - **開工**：讀工作筆記、檢查 git 狀態、建議下一步
 - AI 功能用 Gemini 免費 API（環境變數 GEMINI_API_KEY）或本地 Ollama（gemma4:e4b）
 
