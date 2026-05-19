@@ -1,0 +1,35 @@
+{
+  "_comment": "Ch7 PPT slides ↔ Word sections 手動對照表",
+  "mappings": [
+    {
+      "word_idx": 0,
+      "word_heading": "第7章 臺灣與世界",
+      "slide_range": [1, 2],
+      "note": "封面頁"
+    },
+    {
+      "word_idx": 2,
+      "word_heading": "第一節 自然環境的特性",
+      "slide_range": [3, 33],
+      "note": "第一節內容"
+    },
+    {
+      "word_idx": 3,
+      "word_heading": "第二節 多元文化的社會",
+      "slide_range": [34, 45],
+      "note": "第二節內容"
+    },
+    {
+      "word_idx": 4,
+      "word_heading": "第三節 台灣經濟發展的歷程",
+      "slide_range": [46, 51],
+      "note": "第三節內容"
+    },
+    {
+      "word_idx": 5,
+      "word_heading": "焦點試題演練",
+      "slide_range": [52, 78],
+      "note": "試題演練"
+    }
+  ]
+}
