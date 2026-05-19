@@ -1,0 +1,44 @@
+{
+  "_comment": "PPT slides 與 Word sections 的手動對照表。請根據實際內容調整 slide_range。",
+  "_format": "每個 mapping 指定 word_idx（Word 章節索引，從 0 開始）對應的 PPT slide 範圍",
+  "_how_to_use": "1. 先跑 report 模式看 Word 章節清單 2. 調整下面的 slide_range 3. 重跑 report",
+
+  "mappings": [
+    {
+      "word_idx": 0,
+      "word_heading": "第8章 東亞文化圈的形成與發展",
+      "slide_range": [1, 1],
+      "note": "封面頁"
+    },
+    {
+      "word_idx": 1,
+      "word_heading": "地理位置",
+      "slide_range": [2, 5],
+      "note": "概論/地圖"
+    },
+    {
+      "word_idx": 2,
+      "word_heading": "第一節 東亞文化圈的形成",
+      "slide_range": [6, 16],
+      "note": "第一節內容"
+    },
+    {
+      "word_idx": 3,
+      "word_heading": "第二節 經濟崛起與轉型",
+      "slide_range": [17, 39],
+      "note": "第二節內容"
+    },
+    {
+      "word_idx": 4,
+      "word_heading": "第三節 人口與環境問題",
+      "slide_range": [40, 50],
+      "note": "第三節內容"
+    },
+    {
+      "word_idx": 5,
+      "word_heading": "學習地圖/試題",
+      "slide_range": [51, 96],
+      "note": "習題/測驗"
+    }
+  ]
+}
