@@ -1,7 +1,7 @@
 # Teaching-tools — 班級工具總專案
 
 ## 工作模式
-- 進度與最近更動都在 Obsidian：`E:\Brain\Teaching-tools\工作筆記.md`
+- 進度與最近更動都在 Obsidian：`D:\Dropbox\Brain\Teaching-tools\工作筆記.md`
 - **加新工具**：在 `E:\OpenCode\tools\<工具名>\` 下建立
 - **收工 SOP**：
   1. 歸納本次工作內容，建議一個資料夾名稱（例：「PPT教材 自動比對 更新」）
